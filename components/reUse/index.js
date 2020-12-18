@@ -5,4 +5,5 @@ export {
     ButtonGrid, 
     SectionHeading, 
     HeadingLine,
-    Image } from './styled'
+    Image,
+    Text } from './styled'

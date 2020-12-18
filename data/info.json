@@ -53,7 +53,7 @@
   },
   "Experience": {
     "Givsum INC": {
-      "title": "Capstone Project - UX/UI Designer & Frontend Engineer",
+      "title": "UX/UI Designer & Frontend Engineer",
       "description": "Givsum is a philanthropic platform for charitable organizations. I was tasked with designing and implementing an analytics dashboard for administrative users. For the design, I worked to create a responsive and accessible design that met company design guidelines and principles. This design was based off of stakeholder analysis and market research using Figma prototyping tool. To implement the design I had to learn a new MVC framework, Ruby on Rails. For the markup language, I learned to use HAML instead of using HTML. I also learned to work with live production data using Google Analytics, and PostgresQL. I used Github for CI/CD, and tracked the project using Trello and Jira. In the end I became proficient in a new set of technologies, and had the dashboard deployed to their production site.",
       "stack": [
         "Ruby on Rails",
@@ -64,7 +64,7 @@
       ]
     },
     "Paciolan LLC": {
-      "title": "Capstone Project - UX/UI Designer & Frontend Engineer",
+      "title": "UX/UI Designer & Frontend Engineer",
       "description": "Paciolan is a white label ticketing platform for sports and other events. As a proof of concept, I was tasked with improving the SEO and Google ranking for the landing pages of their Football teams. I iterated through and improved different designs while doing market research and enhancing SEO attributes of the site. I learned many details that Google’s crawler looks at when determining a ranking such as structured data, page layout and content, dynamic meta tags, and the Open Graph Protocol. In order to implement the design, I learned a new React.js framework, Next.js. This framework’s server-side rendering is an aspect that enhances SEO as it renders static HTML pages that are crawler friendly. I experienced a professional CI/CD pipeline using GitLab, and tracked the project's progress using Jira and Confluence. In the end, we saw promising improvements in SEO, Performance, and Accessibility scores.",
       "stack": ["Javascript", "React.js", "Next.js"]
     },

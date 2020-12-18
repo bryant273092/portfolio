@@ -11,7 +11,7 @@ export const Skills = () => {
                 <SectionHeading>Skills</SectionHeading>
                 <HeadingLine />
             </FlexRow>
-            <FlexRow width={'100%'} >
+            <FlexRow margin={'100px 0px'} width={'100%'} >
                 <FlexColumn aligned={'center'} width={'100%'}>
                     <SectionHeading color={'#1DA1F2'}>Languages</SectionHeading>
                     <List>

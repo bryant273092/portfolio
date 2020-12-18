@@ -3,6 +3,7 @@ import { FlexColumn } from '../reUse';
 
 export const SkillContainer = styled(FlexColumn)`
     width: clamp( 250px,95%,1650px);
+    
 `
 export const List = styled.ul`
     padding: 0px;

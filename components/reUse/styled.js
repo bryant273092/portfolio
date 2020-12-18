@@ -17,7 +17,8 @@ export const FlexRow = styled.div`
     display: flex;
     flex-direction: row;
     align-items: ${(props) => props.aligned || ''};
-    margin: ${(props) => props.margin || '0'}
+    margin: ${(props) => props.margin || '0'};
+    justify-content: ${(props) => props.jc || ''};
     
 `
 export const Button = styled.a`
@@ -47,8 +48,9 @@ export const ButtonGrid = styled(FlexRow)`
 `
 export const SectionHeading = styled.h3`
     color: ${(props) => props.color || 'white'};
-    font-size: clamp(20px, 4vw, 30px);
+    font-size: ${(props) => props.size || 'clamp(20px, 4vw, 30px)'};
     padding: ${(props) => props.padding || '10px 10px 10px 10px'};
+    margin: ${(props) => props.margin || ''};
     white-space: nowrap;
 
 `
@@ -62,4 +64,13 @@ export const Image = styled.img`
     height: ${(props) => props.height || 'auto'};
     border-radius: 100%;
     filter: grayscale(60%);
+`
+export const Text = styled.p`
+    color: ${(props) => props.color || 'white'}; 
+    font-size: clamp(12.5px, 1.5vw, 22.5px);
+    width: ${(props) => props.width || "clamp(250px, 60%, 800px)"};
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1.6;
+    margin-top: ${(props) => props.top || 'clamp(20px, 7.5%, 45px)'};
 `
