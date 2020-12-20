@@ -74,47 +74,94 @@
       "stack": ["Javascript", "React.js", "Next.js"]
     }
   },
-  "Projects": {
-    "Twitter Correct": {
+  "Projects": [
+    {
+      "name" : "Twitter Correct",
       "title": "Personal Project",
       "description": "Twitter Correct is a service that allows users to search their tweets for sensitive terminology. Users are able to sign in through Twitter and grant access to the application. The last 5500 tweets of the user are searched against a blacklist of words and phrases consisting of default and user-entered words and phrases. These tweets are displayed and can then be automatically or manually deleted by the user. Since this was a personal project, I was able to experiment with my approach to this problem.This web application was built using the MERN stack. Users would be able to sign in through twitter using the Twitter OAuth API. User tweets are pulled using the Twitter API.",
-      "stack": ["MongoDB", "Express.js", "React.js", "Node.js"]
+      "details": ["Built using MERN Stack", "Leverages Twitter API", "Users are able to sign-in using Twitter Authentication", "Users can scan for and delete politically incorrect tweets"],
+      "image" : "/twitter.png",
+      "linkName" : "Github",
+      "icon" : "Github",
+      "link" : "https://github.com/bryant273092/TwitterCorrect"
     },
-    "Spotify Clone": {
+    {
+      "name" : "Spotify Clone",
       "title": "Personal Project",
       "description": "For this project, I wanted to build a web application using the Spotify Endpoint API. Users would be able to sign in using Spotify OAuth, giving the application authorization tokens for accessing their information. The things users are able to do resemble Spotify, such as loading their personal information and playlist, but also being able to browse through their services. Since this was a personal project, I had full discretion over how I wanted to implement this application. For the frontend implementation, I decided to use Angular as a framework. Within Angular, I used Typescript over Javascript for maximum efficiency. Bootstrap was also used to implement aspects of the front end application. For the backend, I used both NodeJS and its framework ExpressJs. I implemented authorization and authentication using Spotify OAuth, set-up API endpoint call architecture.",
-      "stack": [
-        "MongoDB",
-        "Express.js",
-        "Angular.js",
-        "Node.js",
-        "Typescript",
-        "Bootstrap"
-      ]
+      "details": [
+        "Built using MEAN Stack",
+        "Leverages Spotify API",
+        "Users are able to sign-in using OAuth",
+        "Users can search and listen to music"
+      ],
+      "image" : "/spotify.png",
+      "linkName" : "Github",
+      "icon" : "Github",
+      "link" : "https://github.com/bryant273092/SpotifyInterface"
     },
-    "Fry's Electronics": {
+     {
+      "name" : "Fry's Electronics",
       "title": "Group Project - UX/UI Redesign",
       "description": "In this report we present the process and findings in the Fry’s website redesign. Fry's website was chosen as we saw there was a need for improvement across the platform. Our goals were to use different methodologies to gain an understanding of users, identify issues within the site, and evaluate this data to use for the redesign. We also wanted to create iterations of sketches, wire frames, and mock ups, then perform a heuristic evaluation on these to optimize the new interface. With discussion and evaluation, we determined the best approach for this redesign was to use a variety of methodologies. Our initial method was to perform competitive analysis on similar platforms as a means of gaining an understanding of the landscape. As a means of understanding users and stakeholders we performed user interviews and surveys to gain qualitative data. To identify usability issues on the site, we performed usability tasks/tests, and cognitive walkthroughs. After evaluation of our findings, we determined high, medium, and low priority issues on the site. With this data we were able to materialize a new redesigned interface for the site and its target issues. In addition to this redesign, we performed a heuristic evaluation in which we improve on the redesign. Our initial findings after competitive analysis were that Fry’s website lacked critical features its competitors provided for its users. After analyzing data gained from methods used to understand users and stakeholders, we learned that some users are highly influenced by recommendations, deals, and advertisements, while also having the opposite effect on other users. We also discovered users use a wide range of mediums for which to shop through, yet they prefer to view products on large screens. The methods used to find usability issues on the site yielded issues that a majority of users found relevant. We found users were not able to correctly identify the nearest store location. Users did not have a positive experience when managing and using wish lists. The weekly deals section on the site was cluttered, misleading, and confusing to users. Another usability issue that greatly hindered a positive experience was the lack of a built-in compare tool between products. After evaluation of all this data, we found our target issues were to include the wishlist process, store locator/finder, deals/home page presentation, and the product comparison process and page.",
-      "stack": [
-        "MongoDB",
-        "Express.js",
-        "Angular.js",
-        "Node.js",
-        "Typescript",
-        "Bootstrap"
-      ]
+      "details": [
+        "UI/UX redesign of online store",
+        "Designed on Figma",
+        "User/Product Research",
+        "Complete Design Document"
+      ],
+      "image" : "/frys.png",
+      "linkName" : "Documentation",
+      "icon" : "File",
+      "link" : "/fry_redesign.pdf"
     },
-    "Sleep Tracker": {
+    {
+      "name": "Sleep Tracker",
       "title": "Group Project - UX/UI Redesign",
       "description": "In this report we present the process and findings in the Fry’s website redesign. Fry's website was chosen as we saw there was a need for improvement across the platform. Our goals were to use different methodologies to gain an understanding of users, identify issues within the site, and evaluate this data to use for the redesign. We also wanted to create iterations of sketches, wire frames, and mock ups, then perform a heuristic evaluation on these to optimize the new interface. With discussion and evaluation, we determined the best approach for this redesign was to use a variety of methodologies. Our initial method was to perform competitive analysis on similar platforms as a means of gaining an understanding of the landscape. As a means of understanding users and stakeholders we performed user interviews and surveys to gain qualitative data. To identify usability issues on the site, we performed usability tasks/tests, and cognitive walkthroughs. After evaluation of our findings, we determined high, medium, and low priority issues on the site. With this data we were able to materialize a new redesigned interface for the site and its target issues. In addition to this redesign, we performed a heuristic evaluation in which we improve on the redesign. Our initial findings after competitive analysis were that Fry’s website lacked critical features its competitors provided for its users. After analyzing data gained from methods used to understand users and stakeholders, we learned that some users are highly influenced by recommendations, deals, and advertisements, while also having the opposite effect on other users. We also discovered users use a wide range of mediums for which to shop through, yet they prefer to view products on large screens. The methods used to find usability issues on the site yielded issues that a majority of users found relevant. We found users were not able to correctly identify the nearest store location. Users did not have a positive experience when managing and using wish lists. The weekly deals section on the site was cluttered, misleading, and confusing to users. Another usability issue that greatly hindered a positive experience was the lack of a built-in compare tool between products. After evaluation of all this data, we found our target issues were to include the wishlist process, store locator/finder, deals/home page presentation, and the product comparison process and page.",
-      "stack": [
-        "MongoDB",
-        "Express.js",
-        "Angular.js",
-        "Node.js",
-        "Typescript",
-        "Bootstrap"
-      ]
+      "details": [
+        "iOS, Android, and Web App",
+        "Built using Ionic 4, and Firebase",
+        "Allows users to view and log their sleep"
+      ],
+      "image" : "/soon.png",
+      "linkName" : "Github",
+      "icon" : "Github",
+      "link" : "https://github.com/bryant273092/SleepTrackingApp"
     }
-  }
+  ],
+  "clients" : [
+    {
+      "name" : "Taco Nacion",
+      "image" : "/taconacion.png",
+      "link" : "https://taco-nacion.com/",
+      "linkName" : "View Site",
+      "icon" : "External",
+      "details" : ["Resturant brochure site", "Built with Next.js and deployed on Vercel", "Manage social media marketing", "SEO Optimization"]
+    },
+    {
+      "name" : "Magical Rentals",
+      "image" : "/magical.png",
+      "link" : "https://magical-partyrentals.com/",
+      "linkName" : "View Site",
+      "icon" : "External",
+      "details" : ["Online rental service", "Built with Next.js and deployed on Vercel", "Brochure site with online ordering", "Manage social media marketing", "SEO Optimization"]
+    },
+    {
+      "name" : "ADA WebPro",
+      "image" : "/adaweb.png",
+      "link" : "https://magical-partyrentals.com/",
+      "linkName" : "View Site",
+      "icon" : "External",
+      "details" : ["Accessibility compliance service", "Built product landing page using WordPress", "Designed on Figma"]
+    },
+    {
+      "name" : "fromthescene",
+      "image" : "/soon.png",
+      "link" : "",
+      "linkName" : "View Site",
+      "icon" : "External",
+      "details" : ["Clothing and music brand", "Online ordering", "Designed on Figma"]
+    }
+  ]
 }

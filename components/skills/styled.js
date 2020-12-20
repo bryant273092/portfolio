@@ -7,6 +7,10 @@ export const SkillContainer = styled(FlexColumn)`
 `
 export const List = styled.ul`
     padding: 0px;
+    width: ${(props) => props.width || 'auto'};
+    height: ${(props) => props.height || 'auto'};
+    
+    border-radius: 10px;
 `
 export const ListItem = styled.li`
     line-height: 1.8;

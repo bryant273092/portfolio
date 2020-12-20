@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { FlexColumn, FlexRow } from '../reUse';
+import { FlexColumn, FlexRow, blueT, offWhite } from '../reUse';
+import { List, ListItem} from '../skills/styled'
 
-const blueT = '#1DA1F2'
 
 export const WorkContainer = styled(FlexColumn)`
     width: clamp( 250px,95%,1650px);
@@ -11,6 +11,9 @@ export const Nav = styled(FlexRow)`
     border: 1px solid ${blueT};
     align-items: center;
     border-radius: 10px;
+    @media (max-width: 1024px) {
+        width: auto;
+    }
     
 `
 export const NavDiv = styled(FlexColumn)`
@@ -36,6 +39,7 @@ export const NavItem = styled.a`
 `
 export const RenderBox = styled(FlexColumn)`
     width: 90%;
+    height: 100%;
     
 `
 export const JobContainer = styled(FlexColumn)`
@@ -45,4 +49,25 @@ export const JobContainer = styled(FlexColumn)`
 export const Image = styled.img`
    width: 100%;
    margin: ${(props) => props.margin || '0px'}
+`
+export const Card = styled(FlexColumn)`
+    border-radius: 15px;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.05);
+`
+export const ItemList = styled(List)`
+    padding-left: 10px;
+    align-self: start;
+`
+export const Item = styled(ListItem)`
+    
+`
+export const ContentRow = styled(FlexRow)`
+    @media (max-width: 1024px) {
+        flex-direction: column;
+    }
+
+`
+export const ClientContainer = styled(FlexColumn)`
+    display: ${(props) => props.isDisplayed? 'flex' : 'none' };
 `

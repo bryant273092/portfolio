@@ -6,4 +6,7 @@ export {
     SectionHeading, 
     HeadingLine,
     Image,
-    Text } from './styled'
+    Text,
+    offWhite,
+    Grid,
+    blueT } from './styled'

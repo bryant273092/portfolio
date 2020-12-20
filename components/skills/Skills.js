@@ -1,4 +1,4 @@
-import { FlexColumn, FlexRow, SectionHeading, HeadingLine } from '../reUse';
+import { FlexColumn, FlexRow, SectionHeading, HeadingLine, Grid } from '../reUse';
 import { List, ListItem, SkillContainer } from './styled';
 
 const data = require('../../data/info.json')
@@ -6,45 +6,46 @@ const data = require('../../data/info.json')
 export const Skills = () => {
     return (
         <SkillContainer aligned={'stretch'}>
-            <FlexRow aligned={'center'}>
+            {/* <FlexRow aligned={'center'}>
                 <HeadingLine />
                 <SectionHeading>Skills</SectionHeading>
                 <HeadingLine />
-            </FlexRow>
-            <FlexRow margin={'100px 0px'} width={'100%'} >
+            </FlexRow> */}
+            <Grid margin={'100px 0px'} width={'100%'} >
+            
                 <FlexColumn aligned={'center'} width={'100%'}>
                     <SectionHeading color={'#1DA1F2'}>Languages</SectionHeading>
-                    <List>
+                    <List key={'Languages'}>
                         {data.about.skills.languages.map((language) => (
-                            <ListItem>{language}</ListItem>
+                            <ListItem key={language}>{language}</ListItem>
                         ))}
                     </List>
                 </FlexColumn>
                 <FlexColumn aligned={'center'} width={'100%'}>
                     <SectionHeading color={'#1DA1F2'}>Frameworks</SectionHeading>
-                    <List>
+                    <List key={'Frameworks'}>
                         {data.about.skills.frameworks.map((framework) => (
-                            <ListItem>{framework}</ListItem>
+                            <ListItem key={framework}>{framework}</ListItem>
                         ))}
                     </List>
                 </FlexColumn>
                 <FlexColumn aligned={'center'} width={'100%'}>
                     <SectionHeading color={'#1DA1F2'}>Tools</SectionHeading>
-                    <List>
+                    <List key={'Tools'}>
                         {data.about.skills.tools.map((tool) => (
-                            <ListItem>{tool}</ListItem>
+                            <ListItem key={tool}>{tool}</ListItem>
                         ))}
                     </List>
                 </FlexColumn>
                 <FlexColumn aligned={'center'} width={'100%'}>
                     <SectionHeading color={'#1DA1F2'}>Methods</SectionHeading>
-                    <List>
+                    <List key={'Methods'}>
                         {data.about.skills.methods.map((method) => (
-                            <ListItem>{method}</ListItem>
+                            <ListItem key={method}>{method}</ListItem>
                         ))}
                     </List>
                 </FlexColumn>
-            </FlexRow>
+            </Grid>
         </SkillContainer>
 
     )

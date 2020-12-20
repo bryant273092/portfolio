@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const blueT = '#1DA1F2'
-const offWhite = '#8892b0'
+export const blueT = '#1DA1F2'
+export const offWhite = '#8892b0'
 
 export const FlexColumn = styled.div`
     display: flex;
@@ -11,6 +11,8 @@ export const FlexColumn = styled.div`
     height: ${(props) => props.height || 'auto'};
     width: ${(props) => props.width || 'auto'};
     justify-content: ${(props) => props.jc || ''};
+    background-color: ${(props) => props.bg || 'none'};
+    border-radius: ${(props) => props.br || '0'};
     
 `
 export const FlexRow = styled.div`
@@ -20,6 +22,14 @@ export const FlexRow = styled.div`
     margin: ${(props) => props.margin || '0'};
     justify-content: ${(props) => props.jc || ''};
     
+`
+export const Grid = styled(FlexColumn)`
+    display: grid;
+    grid-template-columns: ${(props) => props.template || 'repeat(auto-fit, minmax(120px, 1fr))'};
+    width: ${(props) => props.width || 'auto'};
+    margin: ${(props) => props.margin || '0'};
+    grid-row-gap: 25px;
+    grid-column-gap: 15px;
 `
 export const Button = styled.a`
     color: ${(props) => props.color || blueT};
@@ -64,13 +74,16 @@ export const Image = styled.img`
     height: ${(props) => props.height || 'auto'};
     border-radius: 100%;
     filter: grayscale(60%);
+    @media (max-width: 1024px) {
+        width: 35%;
+    }
 `
 export const Text = styled.p`
     color: ${(props) => props.color || 'white'}; 
-    font-size: clamp(12.5px, 1.5vw, 22.5px);
+    font-size: clamp(15px, 1.7vw, 22.5px);
     width: ${(props) => props.width || "clamp(250px, 60%, 800px)"};
     margin-left: 10px;
     margin-right: 10px;
-    line-height: 1.6;
+    line-height: 1.8;
     margin-top: ${(props) => props.top || 'clamp(20px, 7.5%, 45px)'};
 `

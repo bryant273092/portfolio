@@ -4,6 +4,8 @@ import { FlexColumn } from '../components/reUse';
 import About from '../components/about';
 import Skills from '../components/skills';
 import Work from '../components/work';
+import Projects from '../components/projects';
+
 export const Page = () => {
   return (
     <FlexColumn aligned={'center'}>
@@ -18,6 +20,9 @@ export const Page = () => {
       </FlexColumn>
       <FlexColumn aligned={'center'} width={'100%'}>
         <Work />
+      </FlexColumn>
+      <FlexColumn aligned={'center'} width={'100%'}>
+        <Projects />
       </FlexColumn>
     </ FlexColumn >
   )
