@@ -53,7 +53,7 @@
   "Experience": {
     "Commercify LLC": {
       "title": "Owner",
-      "description": "Commercify is a freelancing software and design company that I founded while in college. I have worked with a variety of businesses to enhance their online presence. This includes working with clients in developing solutions for clothing stores, rental companies, restaurants and software services. To meet the needs of these businesses, I provide rapid prototyping based on UI/UX research like surveys, competitive analysis, among others. To implement these designs, I've worked with different technologies like Wordpress, WebFlow, Shopify, Angular.js, React.js among others. ",
+      "description": "Commercify is a freelancing software and design company that I founded while in college. I have worked with a variety of businesses to enhance their online presence. This includes working with clients in developing solutions for clothing stores, rental companies, restaurants and software services. To meet the needs of these businesses, I provide rapid prototyping based on UI/UX research like surveys, competitive analysis, among others. To implement these designs, I've worked with different technologies like  Next.js , React.js, Angular.js,  Wordpress, WebFlow, Shopify among others. ",
       "stack": ["Javascript", "React.js", "Next.js", "BigCommerce", "Stripe"]
     },
     "Givsum INC": {
