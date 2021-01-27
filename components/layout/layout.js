@@ -1,12 +1,14 @@
 import NavBar from '../navBar';
-import {FlexColumn} from '../reUse';
+import { FlexColumn } from '../reUse';
 
-export default function Layout({PageContent}) {
+export default function Layout({ PageContent }) {
     return (
         <FlexColumn >
-            <NavBar />
+            
+                <NavBar />
+
             <PageContent />
         </FlexColumn>
-        
+
     )
 }

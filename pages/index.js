@@ -6,23 +6,29 @@ import Skills from '../components/skills';
 import Work from '../components/work';
 import Projects from '../components/projects';
 
+
+
 export const Page = () => {
   return (
     <FlexColumn aligned={'center'}>
-      <FlexColumn aligned={'center'} height={'100vh'} width={'100%'}>
+      <title>Bryant's Portfolio</title>
+      
+      <FlexColumn id='banner' aligned={'center'} height={'100vh'} width={'100%'}>
         <Banner />
+        
       </FlexColumn>
-      <FlexColumn aligned={'center'} width={'100%'}>
+      <FlexColumn id='about' aligned={'center'} width={'100%'}>
         <About />
       </FlexColumn>
-      <FlexColumn aligned={'center'} width={'100%'}>
+      <FlexColumn id='skills' aligned={'center'} width={'100%'}>
         <Skills />
       </FlexColumn>
-      <FlexColumn aligned={'center'} width={'100%'}>
+      <FlexColumn id='experience' aligned={'center'} width={'100%'}>
         <Work />
       </FlexColumn>
-      <FlexColumn aligned={'center'} width={'100%'}>
+      <FlexColumn id='projects' aligned={'center'} width={'100%'}>
         <Projects />
+        
       </FlexColumn>
     </ FlexColumn >
   )

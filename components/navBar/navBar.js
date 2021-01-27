@@ -6,15 +6,15 @@ import { faFile } from '@fortawesome/free-regular-svg-icons'
 
 export const NavBar = () => {
   return (
-    <Navbar style={{backgroundColor:'#15202B'}} expand="lg">
+    <Navbar fixed='top' collapseOnSelect style={{backgroundColor:'#15202B'}} expand="lg">
             <Navbar.Brand style={{color: '#1DA1F2', fontSize:"25px"}}href="/">Bryant H</Navbar.Brand>
             <Navbar.Toggle  aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link style={{color: 'white'}}href="/about">About</Nav.Link>
-                    <Nav.Link style={{color: 'white'}} href="/experience">Experience</Nav.Link>
-                    <Nav.Link style={{color: 'white'}}href="/projects">Projects</Nav.Link>
-                    <Nav.Link style={{color: 'white'}}href="/contact">Contact</Nav.Link>
+                    <Nav.Link style={{color: 'white'}}href="#about">About</Nav.Link>
+                    <Nav.Link style={{color: 'white'}} href="#experience">Experience</Nav.Link>
+                    <Nav.Link style={{color: 'white'}}href="#projects">Projects</Nav.Link>
+                    {/* <Nav.Link style={{color: 'white'}}href="#contact">Contact</Nav.Link> */}
                     
                     
                     

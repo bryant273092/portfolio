@@ -1,25 +1,24 @@
 {
   "about": {
-    "who": "I currently live in Riverside, California. I'm a UX/UI designer and a Software Engineer. I consider myself a versatile and capable person who enjoys helping people. My goal is find an organization for which I can make great contributions.",
-    "experience": "My experiences consist of working for local start-ups, building web and mobile applications for clients, designing software, designing user interfaces and experiences, project and group management, and game development.",
-    "education": "B.S. in Informatics with a specialization in Human-Computer Interaction at the University of California, Irvine. (Grad 2020 GPA 3.7)",
+    "who": "Hey! I'm a UX/UI designer and a Software Engineer. I consider myself a versatile and capable person who enjoys helping people. My goal is find an organization for which I can make great contributions.",
+    "experience": "My experiences consists of working for local start-ups, building web and mobile applications for clients, designing software, designing user interfaces and experiences, project and group management, and game development.",
+    "education": "My education is a B.S. in Informatics with a specialization in Human-Computer Interaction at the University of California, Irvine. (Grad 2020 GPA 3.7)",
     "skills": {
       "languages": [
-        "Python",
-        "C++",
-        "Javascript",
         "TypeScript",
+        "C++",
+        "Python",
+        "Javascript",
         "Ruby",
         "Java",
         "HTML",
         "CSS"
       ],
       "tools": [
+        "BigCommerce",
         "Wordpress",
         "Figma",
         "Webflow",
-        "Adobe XD",
-        "Sketch",
         "Photoshop",
         "Jira",
         "Git",
@@ -39,9 +38,9 @@
         "Wireframing"
       ],
       "frameworks": [
-        "Angular.js",
         "Next.js",
         "React.js",
+        "Angular.js",
         "Node.js",
         "Express.js",
         "Ruby on Rails",
@@ -52,6 +51,11 @@
     }
   },
   "Experience": {
+    "Commercify LLC": {
+      "title": "Owner",
+      "description": "Commercify is a freelancing software and design company that I founded while in college. I have worked with a variety of businesses to enhance their online presence. This includes working with clients in developing solutions for clothing stores, rental companies, restaurants and software services. To meet the needs of these businesses, I provide rapid prototyping based on UI/UX research like surveys, competitive analysis, among others. To implement these designs, I've worked with different technologies like Wordpress, WebFlow, Shopify, Angular.js, React.js among others. ",
+      "stack": ["Javascript", "React.js", "Next.js", "BigCommerce", "Stripe"]
+    },
     "Givsum INC": {
       "title": "UX/UI Designer & Frontend Engineer",
       "description": "Givsum is a philanthropic platform for charitable organizations. I was tasked with designing and implementing an analytics dashboard for administrative users. For the design, I worked to create a responsive and accessible design that met company design guidelines and principles. This design was based off of stakeholder analysis and market research using Figma prototyping tool. To implement the design I had to learn a new MVC framework, Ruby on Rails. For the markup language, I learned to use HAML instead of using HTML. I also learned to work with live production data using Google Analytics, and PostgresQL. I used Github for CI/CD, and tracked the project using Trello and Jira. In the end I became proficient in a new set of technologies, and had the dashboard deployed to their production site.",
@@ -66,11 +70,6 @@
     "Paciolan LLC": {
       "title": "UX/UI Designer & Frontend Engineer",
       "description": "Paciolan is a white label ticketing platform for sports and other events. As a proof of concept, I was tasked with improving the SEO and Google ranking for the landing pages of their Football teams. I iterated through and improved different designs while doing market research and enhancing SEO attributes of the site. I learned many details that Google’s crawler looks at when determining a ranking such as structured data, page layout and content, dynamic meta tags, and the Open Graph Protocol. In order to implement the design, I learned a new React.js framework, Next.js. This framework’s server-side rendering is an aspect that enhances SEO as it renders static HTML pages that are crawler friendly. I experienced a professional CI/CD pipeline using GitLab, and tracked the project's progress using Jira and Confluence. In the end, we saw promising improvements in SEO, Performance, and Accessibility scores.",
-      "stack": ["Javascript", "React.js", "Next.js"]
-    },
-    "DreamWare LLC": {
-      "title": "Freelancer",
-      "description": "Dreamware is a freelancing software and design company that I founded while in college. I have worked with a variety of businesses to enhance their online presence. This includes working with clients in developing solutions for clothing stores, rental companies, restaurants and software services. To meet the needs of these businesses, I provide rapid prototyping based on UI/UX research like surveys, competitive analysis, among others. To implement these designs, I've worked with different technologies like Wordpress, WebFlow, Shopify, Angular.js, React.js among others. ",
       "stack": ["Javascript", "React.js", "Next.js"]
     }
   },
@@ -128,9 +127,39 @@
       "linkName" : "Github",
       "icon" : "Github",
       "link" : "https://github.com/bryant273092/SleepTrackingApp"
+    },
+    {
+      "name": "Rapid Fire",
+      "title": "Group Project - Game",
+      "description": "In this report we present the process and findings in the Fry’s website redesign. Fry's website was chosen as we saw there was a need for improvement across the platform. Our goals were to use different methodologies to gain an understanding of users, identify issues within the site, and evaluate this data to use for the redesign. We also wanted to create iterations of sketches, wire frames, and mock ups, then perform a heuristic evaluation on these to optimize the new interface. With discussion and evaluation, we determined the best approach for this redesign was to use a variety of methodologies. Our initial method was to perform competitive analysis on similar platforms as a means of gaining an understanding of the landscape. As a means of understanding users and stakeholders we performed user interviews and surveys to gain qualitative data. To identify usability issues on the site, we performed usability tasks/tests, and cognitive walkthroughs. After evaluation of our findings, we determined high, medium, and low priority issues on the site. With this data we were able to materialize a new redesigned interface for the site and its target issues. In addition to this redesign, we performed a heuristic evaluation in which we improve on the redesign. Our initial findings after competitive analysis were that Fry’s website lacked critical features its competitors provided for its users. After analyzing data gained from methods used to understand users and stakeholders, we learned that some users are highly influenced by recommendations, deals, and advertisements, while also having the opposite effect on other users. We also discovered users use a wide range of mediums for which to shop through, yet they prefer to view products on large screens. The methods used to find usability issues on the site yielded issues that a majority of users found relevant. We found users were not able to correctly identify the nearest store location. Users did not have a positive experience when managing and using wish lists. The weekly deals section on the site was cluttered, misleading, and confusing to users. Another usability issue that greatly hindered a positive experience was the lack of a built-in compare tool between products. After evaluation of all this data, we found our target issues were to include the wishlist process, store locator/finder, deals/home page presentation, and the product comparison process and page.",
+      "details": [
+        "Built a Unity game for PC with school peers",
+        "Designed interface using Photoshop",
+        "Built and deployed game company site"
+      ],
+      "image" : "/rapifire.png",
+      "linkName" : "View Site",
+      "icon" : "External",
+      "link" : "https://cannongames.vercel.app/"
     }
   ],
   "clients" : [
+    {
+      "name" : "MDV Florals",
+      "image" : "/mdvflorals.webp",
+      "link" : "https://mdvfloralboxes.com/",
+      "linkName" : "View Site",
+      "icon" : "External",
+      "details" : ["Designed and built eCommerce site for Floral Boxes and Supplies", "Built with Next.js and deployed on Vercel", "Uses BigCommerce Headless CMS to manage products and orders", "SEO Optimization"]
+    },
+    {
+      "name" : "ET Made",
+      "image" : "/etmadeweb.webp",
+      "link" : "https://etmade.co/",
+      "linkName" : "View Site",
+      "icon" : "External",
+      "details" : ["Designed and built eCommerce apparel brand", "Built with Next.js and deployed on Vercel", "Uses Stripe API to manage products and orders", "SEO Optimization"]
+    },
     {
       "name" : "Taco Nacion",
       "image" : "/taconacion.png",

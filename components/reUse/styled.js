@@ -76,7 +76,8 @@ export const Image = styled.img`
     filter: grayscale(60%);
     @media (max-width: 1024px) {
         width: 35%;
-    }
+    };
+    position: static;
 `
 export const Text = styled.p`
     color: ${(props) => props.color || 'white'}; 

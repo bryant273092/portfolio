@@ -19,3 +19,7 @@ a {
 .navbar-toggler-icon {
   background-image: url(/hamburgerIcon.svg) !important;
 }
+.datepicker {
+  color: gray;
+  border: none
+}
